@@ -1,4 +1,4 @@
-package inntech.controller;
+package dev.icn.controller;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import inntech.model.PublicKeyEntity;
+import dev.icn.model.PublicKeyEntity;
 
 @RestController
 @RequestMapping("/deffie-hellman")

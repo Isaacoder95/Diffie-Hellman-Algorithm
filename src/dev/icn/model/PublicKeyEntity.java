@@ -1,4 +1,4 @@
-package inntech.model;
+package dev.icn.model;
 
 
 

@@ -1,4 +1,4 @@
-package inntech.controller;
+package dev.icn.controller;
 
 import java.io.IOException;
 import java.security.InvalidKeyException;
@@ -26,7 +26,7 @@ import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import inntech.model.PublicKeyEntity;
+import dev.icn.model.PublicKeyEntity;
 
 @RestController
 @RequestMapping("/other-deffie-hellman")
